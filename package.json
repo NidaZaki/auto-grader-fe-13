@@ -1,10 +1,12 @@
 {
   "name": "auto-grader-fe-13",
+  "homepage": "https://NidaZaki.github.io/auto-grader-fe",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "deploy": "gh-pages -d build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
